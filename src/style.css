@@ -16,6 +16,18 @@ h1 {
   font-weight: bolder;
   margin-top: auto;
   text-align: center;
+  animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: magenta;
+  }
+  50% {
+    color: cyan;
+  }
+  100% {
+    color: magenta;
+  }
 }
 
 form {
