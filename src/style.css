@@ -1,8 +1,14 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
-body {
+/*
+# this hides the username/pwd labels if desired
+label{
+  @apply sr-only;
+} */
+
+/* body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: flex;
@@ -57,4 +63,4 @@ button:hover {
   background-color: greenyellow;
   transform: scale(1.12);
   transition: 0.5s;
-}
+} */
