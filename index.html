@@ -4,10 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <link rel="stylesheet" href="./src/style.css" />
+
     <title>Login/Register</title>
   </head>
   <body>
-    <h1>This is a header!</h1>
-    <p>This is a paragraph!</p>
+    <h1>Login/Register</h1>
+
+    <p>Hello and welcome to the login page!</p>
+
+    <form>
+      <div>
+        <label for="username">Username: </label>
+        <input type="text" id="username" />
+      </div>
+      <div>
+        <label for="password">Password: </label>
+        <input type="text" id="password" />
+      </div>
+
+      <button type="submit">Login</button>
+    </form>
   </body>
 </html>
