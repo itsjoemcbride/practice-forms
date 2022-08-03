@@ -29,3 +29,20 @@ form {
   padding: 24px;
   width: 320px;
 }
+
+button {
+  background-color: green;
+  border-color: orange;
+  border-radius: 8px;
+  border-width: 6px;
+  color: white;
+  padding: 8px 64px;
+  transition: 0.5s;
+}
+
+button:focus,
+button:hover {
+  background-color: greenyellow;
+  transform: scale(1.12);
+  transition: 0.5s;
+}
