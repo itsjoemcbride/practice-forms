@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-# this hides the username/pwd labels if desired
-label{
+label {
   @apply sr-only;
-} */
+}
 
 /* body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,

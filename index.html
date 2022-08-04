@@ -19,19 +19,37 @@
 
     <p>Hello and welcome to the <b>login</b> page :)</p>
 
-    <form class="my-4 mx-4 flex flex-col gap-4 rounded-md border py-4 px-4">
+    <form
+      class="justify my-4 mx-4 flex flex-col items-center gap-4 rounded-md border py-4 px-4"
+    >
       <div>
         <label for="username" class="font-bold text-gray-600">Username:</label>
-        <input type="text" id="username" class="rounded-md border" />
+        <input
+          type="text"
+          id="username"
+          class="rounded-md border px-2"
+          placeholder="Username"
+          autofocus
+        />
       </div>
       <div>
         <label for="password" class="font-bold text-gray-600">Password:</label>
-        <input type="password" id="password" class="rounded-md border" />
+        <input
+          type="password"
+          id="password"
+          class="rounded-md border px-2"
+          placeholder="Password"
+        />
+      </div>
+
+      <div>
+        <input type="checkbox" id="save-username" class="mr-1" />
+        <label for="save-username" class="not-sr-only">Save username</label>
       </div>
 
       <button
         type="submit"
-        class="rounded-md border bg-green-700 px-4 py-2 text-white transition hover:scale-105 hover:bg-green-900"
+        class="rounded-md border bg-green-700 px-6 py-1 font-semibold text-white transition hover:scale-105 hover:bg-green-900"
       >
         Login
       </button>
