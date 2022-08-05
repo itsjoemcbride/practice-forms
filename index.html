@@ -14,49 +14,52 @@
 
     <title>Login/Register</title>
   </head>
-  <body class="flex flex-col items-center bg-blue-100">
-    <h1 class="my-4 text-3xl font-bold text-purple-700">Login/Register</h1>
+  <body class="bg-blue-50">
+    <h1 class="bg-blue-800 py-2 text-center text-3xl font-bold text-white">
+      Login/Register
+    </h1>
 
-    <p>Hello and welcome to the <b>login</b> page :)</p>
-
-    <form
-      class="justify my-4 mx-4 flex flex-col items-center gap-4 rounded-md border bg-gray-300 py-4 px-4"
-    >
-      <div>
-        <label for="username" class="sr-only font-bold text-gray-600"
-          >Username:</label
-        >
-        <input
-          type="text"
-          id="username"
-          class="rounded-md border px-2"
-          placeholder="Username"
-          autofocus
-        />
-      </div>
-      <div>
-        <label for="password" class="sr-only font-bold text-gray-600"
-          >Password:</label
-        >
-        <input
-          type="password"
-          id="password"
-          class="rounded-md border px-2"
-          placeholder="Password"
-        />
-      </div>
-
-      <div>
-        <input type="checkbox" id="save-username" class="mr-1" />
-        <label for="save-username" class="not-sr-only">Save username</label>
-      </div>
-
-      <button
-        type="submit"
-        class="rounded-md border bg-green-700 px-6 py-1 font-semibold text-white transition hover:scale-105 hover:bg-green-900"
+    <div class="flex flex-col items-center">
+      <p class="pt-4">Hello and welcome to the <b>login</b> page :)</p>
+      <form
+        class="justify my-4 mx-4 flex flex-col items-center gap-4 rounded-md border bg-blue-300 py-4 px-4"
       >
-        Login
-      </button>
-    </form>
+        <div>
+          <label for="username" class="sr-only font-bold text-gray-600"
+            >Username:</label
+          >
+          <input
+            type="text"
+            id="username"
+            class="rounded-md border px-2"
+            placeholder="Username"
+            autofocus
+          />
+        </div>
+        <div>
+          <label for="password" class="sr-only font-bold text-gray-600"
+            >Password:</label
+          >
+          <input
+            type="password"
+            id="password"
+            class="rounded-md border px-2"
+            placeholder="Password"
+          />
+        </div>
+
+        <div>
+          <input type="checkbox" id="save-username" class="mr-1" />
+          <label for="save-username" class="not-sr-only">Save username</label>
+        </div>
+
+        <button
+          type="submit"
+          class="rounded-md border bg-green-700 px-6 py-1 font-semibold text-white transition hover:scale-105 hover:bg-green-900"
+        >
+          Login
+        </button>
+      </form>
+    </div>
   </body>
 </html>
